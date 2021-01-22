@@ -175,13 +175,14 @@ Use the getReviewsByRating function below to do the following:
   ]
 */
 
- function getReviewByRating(array, num) {
+//  function getReviewByRating(array, num) {
 
-  // for(let i = 0; i < array.length; i++)
-    if(array.name.rating === num || array.name.rating === num + .5){
-      return array;
-    }
-  }
+//   // for(let i = 0; i < array.length; i++)
+//   function findReview
+//     if(array.name.rating === num || array.name.rating === num + .5){
+      
+//     }
+//   }
 
   
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪💪   
@@ -220,9 +221,17 @@ Use the carMaker function below to do the following:
 */
 
 
-function carMaker(/* code here */) {
-    /* code here */
-    
+function carMaker(originalMiles) {
+    const newCar ={
+      odometer: originalMiles,
+      drive: function(distanceMiles){
+        this.odometer += distanceMiles;
+        // return this.odometer;
+      }
+
+
+    }
+    return newCar;
 }
 
 
