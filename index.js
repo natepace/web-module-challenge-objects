@@ -185,7 +185,7 @@ Use the getReviewsByRating function below to do the following:
 //   }
 
   
-/* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪💪   
+/* 💪💪💪💪💪💪💪💪💪💪 STRrETCH 2: 💪💪💪💪💪💪💪💪💪💪   
 Use the getLongReviews function below to do the following:
   1. Receive the array that holds all the reviews
   2. Return an array with all the reviews that have more than 15 words in their feedback
